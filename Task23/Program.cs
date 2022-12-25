@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+
+Write("Введите число: ");
+bool numberIsInt = int.TryParse(ReadLine(), out int number);
