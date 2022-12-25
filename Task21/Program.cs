@@ -2,18 +2,18 @@
 
 WriteLine("Введите координаты точки A:");
 Write("x: ");
-bool AxIsInt = int.TryParse(ReadLine(),out int number);
+bool axIsInt = int.TryParse(ReadLine(),out int ax);
 Write("y: ");
-bool AyIsInt = int.TryParse(ReadLine(),out int number);
+bool ayIsInt = int.TryParse(ReadLine(),out int ay);
 Write("z: ");
-bool AzIsInt = int.TryParse(ReadLine(),out int number);
+bool azIsInt = int.TryParse(ReadLine(),out int az);
 WriteLine("Введите координаты точки B:");
 Write("x: ");
-bool BxIsInt = int.TryParse(ReadLine(),out int number);
+bool bxIsInt = int.TryParse(ReadLine(),out int bx);
 Write("y: ");
-bool ByIsInt = int.TryParse(ReadLine(),out int number);
+bool byIsInt = int.TryParse(ReadLine(),out int by);
 Write("z: ");
-bool BzIsInt = int.TryParse(ReadLine(),out int number);
+bool bzIsInt = int.TryParse(ReadLine(),out int bz);
 
 if (!AxIsInt||!AyIsInt||!AzIsInt||!BxIsInt||!ByIsInt||!BzIsInt)
 {
