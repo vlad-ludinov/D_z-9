@@ -14,3 +14,9 @@ Write("y: ");
 bool ByIsInt = int.TryParse(ReadLine(),out int number);
 Write("z: ");
 bool BzIsInt = int.TryParse(ReadLine(),out int number);
+
+if (!AxIsInt||!AyIsInt||!AzIsInt||!BxIsInt||!ByIsInt||!BzIsInt)
+{
+    WriteLine("Произошла ошибка при вводе координат");
+    return;
+}
