@@ -20,3 +20,6 @@ if (!axIsInt||!ayIsInt||!azIsInt||!bxIsInt||!byIsInt||!bzIsInt)
     WriteLine("Произошла ошибка при вводе координат");
     return;
 }
+double ab = Math.Sqrt(Math.Pow(bx-ax, 2) + Math.Pow(by-ay, 2) + Math.Pow(bz-az, 2));
+
+WriteLine($"Расстояние между точками A({ax}, {ay}, {az}) и B({bx}, {by}, {bz}) - {ab:f2}");
